@@ -16,6 +16,22 @@ const Review = () => {
         return number;
     }
 
+    const nextPerson = () => {
+        setIndex((index) => {
+            let newIndex = index + 1;
+            return checkNumber(newIndex);
+        });
+    };
+
+    const prevPerson = () =>{
+        setIndex((index) => {
+            let newIndex = index - 1;
+            return checkNumber(newIndex);
+        });
+    };
+
+    // const random Person = ()
+
 
     return <h2>review component</h2>
 };
