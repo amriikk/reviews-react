@@ -46,6 +46,20 @@ const Review = () => {
                     <FaQuoteRight />
                 </span>
             </div>
+            <h4 className='author'>{ name }</h4>
+            <p className='job'>{ job }</p>
+            <p className='info'>{ text }</p>
+            <div className='button-container'>
+                <button className='next-btn' onClick={nextPerson}>
+                    <FaChevronLeft />
+                </button>
+                <button className='next-btn' onClick={prevPerson}>
+                    <FaChevronRight />
+                </button>
+            </div>
+            <button className='random-btn' onClick={randomPerson}>
+                surprise me!
+            </button>
         </article>
     )
 };
