@@ -161,7 +161,7 @@ main {
   max-width: var(--fixed-width);
 }
 .review {
-  background: skyblue;
+  background: lightblue;
   padding: 1.5rem 2rem;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
